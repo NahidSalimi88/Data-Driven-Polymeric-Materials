@@ -27,9 +27,8 @@ The project codebase is modularized into four operational core phases, guiding t
   * `Camera_Arduino Protocol.ipynb` & `Dispensing Water Protocol_through HTTP.py`: Embedded routines managing motorized sample positioning, image acquisition, and robotic droplet deposition.
 
 ### Module 4: Relationship Between Properties
-* **`4_relationship_between_properties`**: Consolidates screening matrix outputs at the formulation level (averaging experimental replicates) to uncover structural dependencies.
-  * `Relationship between two properties.ipynb`: Evaluates direct linear compositional correlations among precursors (HEMA, PEGDA, LAP, Water) and characterization endpoints, using Pearson correlation matrices and publication-ready heatmaps to map composition-property links.
-
+* **`4_relationship_between_properties`**: Consolidates screening matrix outputs at the formulation level (averaging experimental replicates) to uncover structural dependencies and optimize material performance.
+  * `Relationship between two properties.ipynb`: Evaluates the direct relationships between chemical precursors (HEMA, PEGDA, LAP, Water) and characterization endpoints. It implements a **multi-objective Pareto analysis** to map performance trade-offs, successfully identifying the optimal, non-dominated formulations within the design space that simultaneously maximize mechanical stiffness (Young's modulus) and minimize surface contact angle.
 ---
 
 ## 🛠️ System Requirements
